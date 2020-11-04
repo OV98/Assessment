@@ -70,13 +70,13 @@ ul li a:hover{
 
 h3{
   font-family: arial;
-  font-size: 25px;
+  font-size: 22.5px;
   color: brown;
 }
 
 p{
   font-family: arial;
-  font-size: 20px;
+  font-size: 17.5px;
   text-align: justify;
 }
 a{
@@ -91,9 +91,39 @@ a:hover{
 
 #picture1, #picture2, #picture3
 {
-  width: 400px;
-  height: 310px;
+  width: 380px;
+  height: 275px;
   object-fit: contain;
   float: right;
   margin-left: 40px;
+}
+
+.top5{
+  width: 360px;
+  float: right;
+  margin-left: 30px;
+  background-color: #eee;
+  position:
+}
+h4{
+  font-family: arial;
+  color: brown;
+  font-size: 30px;
+  font-style: italic;
+}
+ol1 li{
+  list-style: none;
+  font-family: arial;
+  font-size: 20px;
+  }
+
+#footer{
+  background-color: #eee;
+  position: relative;
+  height: 100px;
+  margin-top: 200px;
+  clear: both;
+}
+.copyrightauthor{
+  width: 800px;
 }
