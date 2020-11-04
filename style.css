@@ -5,6 +5,9 @@
 
 body{
   background-color: #fff;
+  height: auto;
+  width: 1200px;
+  margin: auto;
 }
 
 .img-logo{
@@ -16,6 +19,8 @@ nav{
   height: 80px;
   background-color: #eee;
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 h1 {
@@ -37,7 +42,6 @@ ul{
 
 }
 ul li{
-
   list-style: none;
   display: inline;
   line-height: 80px;
@@ -52,4 +56,44 @@ ul li a{
 }
 ul li a:hover{
   color: brown;
+}
+
+.video-promo1{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.product1, .product2, .product3{
+  width: 800px;
+  margin-top: 40px;
+}
+
+h3{
+  font-family: arial;
+  font-size: 25px;
+  color: brown;
+}
+
+p{
+  font-family: arial;
+  font-size: 20px;
+  text-align: justify;
+}
+a{
+  font-family: arial;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: brown;
+}
+
+#picture1, #picture2, #picture3
+{
+  width: 400px;
+  height: 310px;
+  object-fit: contain;
+  float: right;
+  margin-left: 40px;
 }
