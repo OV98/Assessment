@@ -103,7 +103,6 @@ a:hover{
   float: right;
   margin-left: 30px;
   background-color: #eee;
-  position:
 }
 h4{
   font-family: arial;
@@ -131,4 +130,32 @@ ol1 li{
 .article1, .article2, .article3, .article4, .article5, .article6{
   width: 800px;
   margin-top: 40px;
+}
+
+.picturearticles{
+  float: right;
+  width: 400px;
+}
+
+.picture2, .picture3{
+  margin-top: 40px;
+}
+
+table{
+  width: 800px;
+  margin-top: 40px;
+}
+th, caption{
+  text-align: left;
+}
+table, th, td{
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even){
+  background-color: #fff;
+}
+tr:nth-child(odd){
+  background-color: #ddd;
 }
