@@ -127,3 +127,8 @@ ol1 li{
 .copyrightauthor{
   width: 800px;
 }
+
+.article1, .article2, .article3, .article4, .article5, .article6{
+  width: 800px;
+  margin-top: 40px;
+}
