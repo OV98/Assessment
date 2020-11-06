@@ -17,7 +17,7 @@ body{
 nav{
   margin-top: 10px;
   height: 80px;
-  background-color: #eee;
+  background-color: #ADAD94;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -25,7 +25,7 @@ nav{
 
 h1 {
   margin-top: 15px;
-  color: brown;
+  color: #C2C91B;
   text-align: center;
   font-size: 60px;
   font-family: arial;
@@ -36,6 +36,7 @@ h2{
   margin-top: 10px;
   font-family: arial;
   font-size: 25px;
+  color: #000;
 }
 
 ul{
@@ -51,15 +52,15 @@ ul li a{
   text-decoration: none;
   font-size: 20px;
   font-family: arial;
-  color: black;
+  color: #000;
   padding: 0 100px;
 }
 ul li a:hover{
-  color: brown;
+  color: #FFF;
 }
 
 .video-promo1{
-  width: 100%;
+  width: 1200px;
   margin-top: 40px;
 }
 
@@ -68,13 +69,13 @@ ul li a:hover{
   margin-top: 40px;
 }
 
-h3{
+h3, caption{
   font-family: arial;
   font-size: 22.5px;
-  color: brown;
+  color: #C2C91B;
 }
 
-p{
+p, td, th{
   font-family: arial;
   font-size: 17.5px;
   text-align: justify;
@@ -82,11 +83,11 @@ p{
 a{
   font-family: arial;
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 a:hover{
-  color: brown;
+  color: #C2C91B;
 }
 
 #picture1, #picture2, #picture3
@@ -106,7 +107,7 @@ a:hover{
 }
 h4{
   font-family: arial;
-  color: brown;
+  color: #FFA200;
   font-size: 30px;
   font-style: italic;
 }
@@ -117,7 +118,7 @@ ol1 li{
   }
 
 #footer{
-  background-color: #eee;
+  background-color: #ADAD94;
   position: relative;
   height: 100px;
   margin-top: 200px;
@@ -151,6 +152,7 @@ th, caption{
 table, th, td{
   border: 1px solid #000;
   border-collapse: collapse;
+  padding: 5px;
 }
 
 tr:nth-child(even){
@@ -158,4 +160,54 @@ tr:nth-child(even){
 }
 tr:nth-child(odd){
   background-color: #ddd;
+}
+.caption1{
+  caption-side: bottom;
+}
+th, td{
+  font-size: 15px;
+}
+.contactform{
+  width: 800px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 40px;
+}
+.input-field{
+  width: 800px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px solid #C2C91B;
+  border-radius: 14px;
+  outline: none;
+
+}
+.textarea-field{
+  width: 800px;
+  height: 150px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 5px solid #C2C91B;
+  border-radius: 14px;
+  outline: none;
+  font-family: arial;
+}
+.BTN{
+  border-radius: 20px;
+  color:#000;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #C2C91B;
+  font-size: 12px;
+  font-family: arial;
+  border: none;
+  float: right;
+}
+
+.form{
+  width: 800px;
+  height: 800px;
 }
