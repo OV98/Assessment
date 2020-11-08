@@ -136,6 +136,12 @@ ol li{
   width: 400px;
 }
 
+.picturearticles1{
+  float: right;
+  width: 400px;
+  margin-top: 40px;
+}
+
 .picture2, .picture3{
   margin-top: 40px;
 }
