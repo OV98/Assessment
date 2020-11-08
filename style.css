@@ -39,9 +39,7 @@ h2{
   color: #000;
 }
 
-ul{
 
-}
 ul li{
   list-style: none;
   display: inline;
@@ -111,7 +109,7 @@ h4{
   font-size: 30px;
   font-style: italic;
 }
-ol1 li{
+ol li{
   list-style: none;
   font-family: arial;
   font-size: 20px;
@@ -210,4 +208,9 @@ th, td{
 .form{
   width: 800px;
   height: 800px;
+}
+.cookiestatement{
+  float: right;
+  border: 5px solid #FFF;
+  opacity: 50% #FA0;
 }
